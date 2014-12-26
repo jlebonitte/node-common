@@ -1,0 +1,14 @@
+{
+  "name": "node-common",
+  "description": "Common node classes for serverside code",
+  "version": "0.0.1",
+  "author": "Jim Lebonitte <jim@alta5.com>",
+  "private": true,
+  "engines": { "node": ">= 0.6.0" },
+  "dependencies": {
+    "mongodb": "~2.0"
+  },
+  "scripts":{
+    "start":"node app.js"
+  }
+}
