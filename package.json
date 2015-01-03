@@ -5,6 +5,7 @@
   "author": "Jim Lebonitte <jim@alta5.com>",
   "private": true,
   "engines": { "node": ">= 0.6.0" },
+  "main": "index.js",
   "dependencies": {
     "mongodb": "~2.0",
     "redis-node":"~0.4.0",
