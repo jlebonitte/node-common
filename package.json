@@ -6,7 +6,9 @@
   "private": true,
   "engines": { "node": ">= 0.6.0" },
   "dependencies": {
-    "mongodb": "~2.0"
+    "mongodb": "~2.0",
+    "redis-node":"~0.4.0",
+    "altanode": "git+https://github.com/alta5/altanode.git"
   },
   "scripts":{
     "start":"node app.js"
